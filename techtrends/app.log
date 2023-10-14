@@ -1,0 +1,19 @@
+INFO:root:Article "top&" created
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:45:26] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:45:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:45:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.102:3111/ (Press CTRL+C to quit)
+INFO:root:14/10/2023, 23:49:10, Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:49:10] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:49:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.102:3111/ (Press CTRL+C to quit)
+INFO:app:14/10/2023, 23:50:20, Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:50:20] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:50:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:14/10/2023, 23:51:30, Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:51:30] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.8.102 - - [14/Oct/2023 23:51:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
