@@ -20,6 +20,7 @@ Vagrant.configure("2") do |config|
 
   # Set the static IP for the vagrant box
   config.vm.network "private_network", ip: "192.168.50.4"
+  config.vm.synced_folder ".", "/home/vagrant/project",type:"virtualbox"
   
   # Configure the parameters for VirtualBox provider
   config.vm.provider "virtualbox" do |vb|
